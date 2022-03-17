@@ -1,4 +1,4 @@
 import app
 
 def testingcalling():
-    assert app.testcall()=="hello w"
+    assert app.testcall()=="hello"
