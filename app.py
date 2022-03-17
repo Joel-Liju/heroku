@@ -2,6 +2,9 @@ from flask import Flask
 import os
 app = Flask(__name__)
 
+def testcall():
+  return "hello"
+
 @app.route('/')
 def tester():
   return "<h1> Let's go baby!</h1>"
